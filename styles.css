@@ -1,0 +1,78 @@
+html{
+  font-family: 'Hind', sans-serif;
+  background-color: black;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.location{
+  font-family: 'Overpass mono', monospace;
+}
+
+.photoCol{
+  position: absolute;
+  left: 0;
+  top:0;
+  background-color: black;
+  color: #fdfdfd;
+  text-align: center;
+}
+
+.captionCol{
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 33.333333%;
+  background-color: #fdfdfd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.arrowButton{
+  vertical-align: bottom;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 66.666666666666666667vw;
+  height: 100vh;
+}
+
+
+.item{
+  background-position: center;
+  background-size: cover;
+}
+
+#blue{
+  background-color: blue;
+}
+
+.linkSpan{
+  color: white;
+}
+
+#pin{
+  margin-top: .5em;
+}
+
+#captionHeader{
+  padding-left: 1em;
+  padding-right: 1em;
+}
